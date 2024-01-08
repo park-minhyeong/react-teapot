@@ -1,12 +1,10 @@
 import { BrowserRouter } from "react-router-dom";
-import Routers from "./routes/Routers";
+import Pages from "components/Pages";
 
 export default function App() {
   return (
-    <div>
-      <BrowserRouter>
-        <Routers />
-      </BrowserRouter>
-    </div>
+    <BrowserRouter>
+      <Pages />
+    </BrowserRouter>
   );
 }
